@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 400px;
+            padding: 30px;
+            text-align: center;
+        }
+        .phone-icon {
+            font-size: 60px;
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+        .phone-number {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin: 20px 0;
+            letter-spacing: 1px;
+        }
+        .call-button {
+            display: inline-block;
+            background-color: #27ae60;
+            color: white;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-size: 18px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(39, 174, 96, 0.3);
+        }
+        .call-button:hover {
+            background-color: #2ecc71;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(39, 174, 96, 0.4);
+        }
+        .call-button:active {
+            transform: translateY(0);
+        }
+        .note {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="phone-icon">📱</div>
+        <h1>我的联系电话</h1>
+        <div class="phone-number">186-0231-6086</div>
+        <a href="tel:18602316086" class="call-button">立即拨打</a>
+        <div class="note">点击按钮将直接调用电话功能</div>
+    </div>
+</body>
+</html>
